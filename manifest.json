@@ -1,0 +1,12 @@
+{
+  "name": "myapp",
+  "start_url": "./",
+  "icons": [
+    {
+      "src": "b.jpg",
+      "sizes": "200x200",
+      "type": "image/jpg"
+    }
+  ],
+  "display": "fullscreen"
+}

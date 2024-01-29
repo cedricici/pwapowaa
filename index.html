@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Document</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="manifest" href="manifest.json" />
+</head>
+<body>
+  <h1>Oh, my lovely website</h1>
+  <ul>
+    <li><img src="a.jpg" alt=""></li>
+    <li><img src="b.jpg" alt=""></li>
+    <li><img src="c.jpg" alt=""></li>
+    <li><img src="d.jpg" alt=""></li>
+  </ul>
+<script>
+
+// register service worker
+if('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js');
+  //console.log(navigator.serviceWorker);
+}
+
+</script>
+</body>
+</html>
